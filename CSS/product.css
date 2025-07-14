@@ -1,0 +1,120 @@
+
+.fruits_section{
+    background:url(../IMG/download.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 85vh;
+}
+.carousel-item{
+    padding: 3rem 0;
+    height: 85vh;
+}
+.carousel-caption{
+    top: 30%;
+ }
+.carousel-caption h1{
+    color: #000;
+    margin-bottom: 1.5rem;
+    font-size: 45px;
+}
+.star{
+   color: gold;
+   text-align: end;
+}
+.fa-light{
+    color: rgb(216, 228, 231);
+}
+
+
+.vege_section{
+    background:url(../IMG/organic-food.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 85vh;
+}
+.vege_section .carousel-caption{
+    text-align: left;
+    left: 3%;
+}
+.vege_section .carousel-caption h3{
+    background-color: #000;
+    display: inline;
+    padding: 0.5rem 1.5rem;
+    
+}
+.vege_section .carousel-caption p{
+    color: #000;
+    max-width: 30rem;
+    margin-top: 1.5rem;
+}
+.dairy_section{
+    background:url(../IMG/dairy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 85vh;
+}
+.staples_section{
+    background:url(../IMG/staples.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 85vh;
+}
+.staples_section .carousel-caption h1{
+    color: #000;
+    margin-top: 13rem;
+    font-size: 45px;
+}
+.dry_section{
+    background:url(../IMG/dry\ fruits.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 85vh;
+}
+.dry_section .carousel-caption h1{
+    color: white;
+    margin-top: 2rem;
+    font-size: 50px;
+}
+.Snacks_section{
+    background:url(../IMG/\ snacks\ and\ grains.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 85vh;
+}
+.Snacks_section .carousel-caption h1{
+    color: white;
+    margin-top: 2rem;
+    font-size: 50px;
+}
+.btn-purchase{
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+    width: 50%;
+  }
+ 
+  #shopping-cart{
+    padding: 5% 5%;
+  }
+ 
+  .cart-total{
+    text-align: right;
+    font-size: 1.3rem;
+  }
+ 
+ .up-icon{
+    color: black;
+    position: fixed;
+    float: right;
+    z-index: 1;
+    left: 95%;
+    top: 85%;
+    font-size: 2rem;
+  }
+ 

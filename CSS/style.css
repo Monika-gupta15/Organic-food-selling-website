@@ -1,0 +1,487 @@
+.header{
+    position: absolute;
+    width: 100%;
+    top:2rem;
+    z-index: 2;
+}
+.navbar form {
+    color: black;
+    
+}
+.navbar-scroll{
+    position: fixed;
+    top: -0.4rem;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 1320px;
+    margin: auto;
+    z-index: 999;
+    transition: 0.3s all ease-in-out;
+}
+.fa-shopping-cart{
+    color: black;
+}
+.display-section a{
+    height: 3.5rem;
+    width: 3.5rem;
+    line-height: 3.2rem;
+    margin-top: .8rem;
+    border: .125rem solid black;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+    -webkit-transition: all .3s cubic-bezier(.645,.045, .355,1);
+    transition: all .3s cubic-bezier(.645,.045, .355,1);
+    background-color: whitesmoke;
+}
+
+.icons-scroll{
+    position: fixed; 
+    width: 100%;
+    max-width: 1320px;
+    margin: auto;
+    z-index: 999;
+    transition: 0.3s all ease-in-out;   
+}
+.cart-section{
+    display: flex;
+    width: 98%;
+    height: 800px;
+    margin-bottom: 30px;
+}
+#root{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,fr);
+    grid-gap: 20px;
+}
+.slidebar{
+    width: 100%;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 15px;
+    text-align: center;
+}
+.head{
+    background-color: goldenrod;
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid black;
+}
+@media (max-width: 767px)
+{
+body,html{
+    font-size: 8px;
+}
+.section-subtitle{
+    max-width: 80%;
+}
+}
+@media (max-width: 590px) {
+body,html{
+    font-size: 7px;
+}
+}
+.nav-item a{
+    margin-right: 20px;
+}
+.nav-item a:hover{
+          background-color: forestgreen;          
+}
+
+.banner_section{
+    background:url(../IMG/organic.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 85vh;
+}
+.banner_section .carousel-item{
+    padding: 3rem 0;
+    height: 90vh;
+}
+.banner_section .carousel-caption{
+    top: 30%;
+    bottom: 0;
+    left: 3%;
+    right: 0;
+    text-align: left;
+}
+.banner_section .carousel-caption h1{
+    color: #000;
+    margin-bottom: 1.5rem;
+    font-size: 50px;
+}
+.banner_section .carousel-caption h3,.about_section H2{
+    background-color: #000;
+    display: inline;
+    padding: 0.5rem 1.5rem;
+}
+.banner_section .carousel-caption a{
+ color: white;
+}
+.banner_section .carousel-caption a:hover{
+    color: skyblue;
+    background-color: white;
+    border: 0.5px solid;
+   }
+.banner_section .carousel-caption p{
+    color: #000;
+    max-width: 30rem;
+    margin-top: 1.5rem;
+}
+.content{
+    margin-top: -36px;
+    text-align: center;
+}
+.scroll-icon {
+    position: absolute;
+    bottom: 25px;
+    font-size: 35px;
+    animation: bounce 1s infinite;
+    cursor: pointer;
+    margin-left: 550px;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.feature-section .feature-box{
+    background-color: transparent;
+    border: 0.15rem solid whitesmoke;
+    padding: 4rem 0;
+    transition: all o.3s;
+}
+.feature-section .feature-box .features-icon-border{
+    background-color: transparent;
+    border-radius: 50%;
+    border: 0.2rem solid whitesmoke;
+    padding: 1.3rem;
+    display: inline-block;
+}
+.feature-section .feature-box .features-icon{
+    height: 6.5rem;
+    width: 6.5rem;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature-section .feature-box h3{
+    padding-top: 40px;
+}
+.feature-section .feature-box:hover{
+    background-color: #000;
+}
+.feature-section .feature-box:hover h3{
+    color: white;
+    padding-top: 40px;
+}
+.feature-section .feature-box:hover .features-icon-border{
+    border-color:  green;
+    
+}
+.about-details a:hover , .banner-content a:hover, .form-group button:hover,.contact-form button:hover,.product_section button:hover{
+    color: green;
+    background-color: white;
+    border: 1.5px solid green;
+}
+.about_section{
+    background-image: url(../IMG/vegi.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 5rem 0;
+    background-size: 50rem 35rem;
+    margin-top: -30px;
+}
+.bkgd{
+    padding: 100px 100px 250px 50px;
+    background-image: url(../IMG/backgd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: center;
+  }
+.main .col-lg-4, .col-sm-12{
+   padding-left: 90px; 
+}
+.main .col-sm-12{
+    margin-bottom:160px;
+    align-items: center;
+}
+.main a{
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    margin-left: 70px;
+  }
+.main a:hover{
+    border: 1px solid blue;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    color: blue;
+    background-color: white;
+}
+.main h3{
+    background-color: bisque;
+    display: inline;
+    outline: 2px solid black;
+}
+.main .button{
+    margin-top: 20px;
+    padding-left: 20px;
+    display: inline block;
+}
+.review-section{
+    background-color: rgb(202, 231, 223);
+    padding-bottom: 8rem;
+}
+.review-section .carousel-indicators{
+    bottom: -6rem;
+}
+.review-section .carousel-indicators button{
+    background-color: black;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+}
+.review-section .card{
+    background-color: rgb(71, 210, 71);
+    text-align: left;
+    padding:2rem 3rem 0 3rem;
+    border-radius: 0 .5rem .5rem 0;
+    border: 0.1rem solid transparent;
+}
+.review-section .profile-box{
+    padding: 1.875rem;
+    background-color: #000;
+    border-radius: .5rem 0 0 .5rem;
+}
+.review-section .profile-box img{
+    border-radius: .6rem 3rem;
+    width: 100%;
+    height: 100%;
+}
+.gallery_section img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+  /* Lightbox modal */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .modal-content {
+    max-width: 80%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+  }
+  
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Previous and Next buttons */
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .prev {
+    left: 0;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+.footer-section{
+    background-image: url(../IMG/footer\ bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 15rem;
+}
+.footer-section h5{
+    color: white;
+    font-size: 1.75rem;
+    margin-bottom: 1.25rem;
+}
+.footer-section ul li{
+    margin-bottom: 0.5rem;
+    list-style: none;
+
+}
+.footer-section .company_details p{
+    font-size: 1.4rem;
+    color: white;
+}
+.footer-section p{
+    color: white;
+}
+.footer-section .Contect-info li a, .link-widget li a{
+    color: bisque;
+    font-size: 1rem;
+}
+.footer-section .Contect-info li a:hover, .link-widget li a:hover{
+    color: white;
+    font-size: 1rem;
+    padding-left: 1rem;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+.fa-twitter{
+    color: #0097e6;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-whatsapp{
+    color: green;
+}
+.fa-instagram{
+    color: #eb3d74;
+}
+.fa-home{
+    color: rgb(17, 179, 233);
+}
+.fa-phone{
+    color: green;
+}
+.fa-user{
+    color: rgb(236, 89, 52);
+}
+.footer-section .social-network li a{
+    height: 3.5rem;
+    width: 3.5rem;
+    line-height: 3.2rem;
+    margin: .5rem;
+    border: .125rem solid whitesmoke;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+    -webkit-transition: all .3s cubic-bezier(.645,.045, .355,1);
+    transition: all .3s cubic-bezier(.645,.045, .355,1);
+}
+.footer-section .social-network li a:hover{
+    background-color: whitesmoke;
+    border-color: blue;
+    color: white;
+    box-shadow: 0 .625rem .9375rem 0 blue;
+    transform: translateY(-.1875rem);
+}
+.footer-section .copyright-section{
+    background-color: green;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.footer-section .copyright-section a{
+    color: #000;
+}
+
+.contact_section .contact-form{
+    background-color: rgb(202, 231, 223);
+    padding: 5rem;
+    box-shadow: 0 0.2rem 1.5rem rgb(0 0 0 / 4%);
+}
+.contact_section .info-box li{
+    position: relative;
+    margin-bottom: 2.9rem;
+    padding-bottom: 3.5rem;
+    padding-left: 6rem;
+    list-style: none;
+    padding-top: 1rem;
+}
+.contact_section .info-box li i{
+    position: absolute;
+    left: 0;
+    top: 1.5rem;
+    font-size: 40px;
+    line-height: 40px;
+}
+.contact_section .info-box li a{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.contact_section .contact-form .form-control{
+    padding: 1rem 1.5rem;
+    border-radius: 0rem;
+    border: 0.1rem solid rgb(135, 216, 135);
+    font-size: 1,5rem;
+    font-weight: 400;
+}
+.contact_section .contact-form .form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.contact_section .contact-form .form-control::placeholder{
+    color: black;
+}
+.error{
+    color: red;
+}
